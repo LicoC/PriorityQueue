@@ -13,6 +13,7 @@
 		2FB36F691DF59D7300A08635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB36F671DF59D7300A08635 /* Main.storyboard */; };
 		2FB36F6B1DF59D7300A08635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB36F6A1DF59D7300A08635 /* Assets.xcassets */; };
 		2FB36F6E1DF59D7300A08635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB36F6C1DF59D7300A08635 /* LaunchScreen.storyboard */; };
+		2FB36F771DF59D9900A08635 /* PriorityQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FB36F761DF59D9900A08635 /* PriorityQueue.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2FB36F6A1DF59D7300A08635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FB36F6D1DF59D7300A08635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FB36F6F1DF59D7300A08635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB36F751DF59D9900A08635 /* PriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
+		2FB36F761DF59D9900A08635 /* PriorityQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PriorityQueue.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		2FB36F5D1DF59D7300A08635 /* PriorityQueue */ = {
 			isa = PBXGroup;
 			children = (
+				2FB36F751DF59D9900A08635 /* PriorityQueue.h */,
+				2FB36F761DF59D9900A08635 /* PriorityQueue.mm */,
 				2FB36F611DF59D7300A08635 /* AppDelegate.h */,
 				2FB36F621DF59D7300A08635 /* AppDelegate.m */,
 				2FB36F641DF59D7300A08635 /* ViewController.h */,
@@ -154,6 +159,7 @@
 				2FB36F661DF59D7300A08635 /* ViewController.m in Sources */,
 				2FB36F631DF59D7300A08635 /* AppDelegate.m in Sources */,
 				2FB36F601DF59D7300A08635 /* main.m in Sources */,
+				2FB36F771DF59D9900A08635 /* PriorityQueue.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
